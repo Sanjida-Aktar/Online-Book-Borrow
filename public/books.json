@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A young shepherd embarks on a journey to discover his personal legend and hidden treasure.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "A practical guide to building good habits, breaking bad ones, and achieving lasting success.",
+    "category": "Science",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "Learn software craftsmanship and write clean, maintainable, and efficient code.",
+    "category": "Tech",
+    "available_quantity": 15,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "description": "A classic book that teaches practical techniques for becoming a better software developer.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780201616224-L.jpg"
+  },
+  {
+    "id": 5,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "An introduction to the mysteries of space, time, black holes, and the universe.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "A magical story about regret, hope, and discovering the value of life.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Deep Learning Basics",
+    "author": "Michael Brown",
+    "description": "An easy introduction to neural networks, machine learning, and AI concepts.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600"
+  },
+  {
+    "id": 8,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "description": "A psychological thriller about mystery, trauma, and hidden truths.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600"
+  },
+  {
+    "id": 9,
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "description": "Explore the wonders of the universe through science, history, and imagination.",
+    "category": "Science",
+    "available_quantity": 13,
+    "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600"
+  },
+  {
+    "id": 10,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "A must-read guide for understanding the best features of JavaScript.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600"
+  },
+  {
+    "id": 11,
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "description": "A timeless story about friendship, imagination, and the meaning of life.",
+    "category": "Story",
+    "available_quantity": 14,
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600"
+  },
+  {
+    "id": 12,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "A fascinating explanation of evolution and genetics from a scientific perspective.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600"
+  }
+]

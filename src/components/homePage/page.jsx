@@ -18,9 +18,7 @@ const HeroBanner = () => {
             </span>
 
             <h1 className="text-6xl font-extrabold text-gray-900 mt-5 leading-tight">
-              Find Your
-              <br />
-              <span className="text-emerald-600">
+              Find Your <span className="text-emerald-600">
                 Next Read
               </span>
             </h1>
