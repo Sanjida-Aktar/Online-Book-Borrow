@@ -1,5 +1,6 @@
 import BookName from "@/components/shared/BookName";
 import Navbar from "@/components/shared/Navbar";
+import Link from "next/link";
 
 const BooksPage = async () => {
   const res = await fetch("http://localhost:3000/books.json", {
@@ -33,9 +34,11 @@ const BooksPage = async () => {
                 <h2 className="card-title">{book.title}</h2>
                 <p>{book.author}</p>
 
-                <button className="btn btn-success mt-4">
-                  Details
-                </button>
+                <Link href={`/books/${book.id}`}>
+                  <button className="btn btn-success w-full">
+                    View Details
+                  </button>
+                </Link>
               </div>
             </div>
           ))}
