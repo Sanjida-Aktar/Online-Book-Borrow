@@ -9,7 +9,6 @@ const HeroBanner = () => {
       <div className=" max-w-7xl mx-auto px-6 py-24">
         <div className=" flex flex-col justify-center items-center text-center">
 
-          {/* Left */}
 
           <div>
 
@@ -22,7 +21,7 @@ const HeroBanner = () => {
                 Next Read
               </span>
             </h1>
-                        <BookName></BookName>
+                       
 
 
             <p className="text-gray-600 text-lg mt-6 leading-8">
@@ -80,7 +79,6 @@ const HeroBanner = () => {
 
           </div>
 
-          {/* Right */}
 
         </div>
 

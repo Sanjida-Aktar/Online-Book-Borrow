@@ -11,9 +11,7 @@ const BooksPage = async () => {
 
   return (
     <>
-      <Navbar />
       <div className="pt-4">
-        <BookName></BookName>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 py-10">
