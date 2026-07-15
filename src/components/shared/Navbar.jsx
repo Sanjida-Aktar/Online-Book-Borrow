@@ -36,9 +36,11 @@ const Navbar = () => {
 
           {/* Right Side */}
           <div className="navbar-end gap-3">
+            <Link href="/login">
             <button className="btn btn-outline btn-success">
               Login
             </button>
+            </Link>
           </div>
 
         </div>
