@@ -17,6 +17,17 @@ const registerPage = () => {
     password: data.password, // required
     callbackURL: "/",
 });
+console.log("Response:", res);
+console.log("Error:", error);
+
+if (error) {
+  alert(error.message);
+}
+if(res){
+  alert("Singup Successfully")
+}
+
+console.log("SUCCESS:", res);
     }
 
     
