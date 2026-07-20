@@ -39,10 +39,13 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* Right Side */}
-     {user?     <div className="navbar-end flex items-center gap-2">
-            <h2 className ="text-2xl text-green-700 font-bold border border-dashed rounded-lg p-1 border-b-emerald-800 " >{user.name}</h2>
-            <button className="btn btn-error" onClick={async()=>await authClient.signOut()}>Logout</button>
+     {user?     <div className="navbar-end flex items-center gap-4">
+            <div className="avatar">
+  <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
+    <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
+  </div>
+</div>
+            <button className="btn btn-error rounded-2xl" onClick={async()=>await authClient.signOut()}>Logout</button>
 
           </div>:
 (
