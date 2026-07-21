@@ -1,10 +1,13 @@
 import Link from "next/link";
 import BookName from "../shared/BookName";
+import bgimge from "@/imge/bgimg.jpg"
+
 
 const HeroBanner = () => {
   return (
     
     <section className="bg-gradient-to-r from-emerald-50 via-white to-green-100 container mx-auto">
+       
 
       <div className=" max-w-7xl mx-auto px-6 py-24">
         <div className=" flex flex-col justify-center items-center text-center">
