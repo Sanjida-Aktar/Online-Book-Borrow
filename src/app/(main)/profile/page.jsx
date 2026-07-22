@@ -1,6 +1,5 @@
 "use client";
 import FooterPage from "@/components/shared/Footer";
-import Navbar from "@/components/shared/Navbar";
 import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import { redirect } from "next/navigation";
@@ -12,7 +11,7 @@ const profilePage = () => {
 
   return (
     <>
-      <Navbar></Navbar>
+      
       <div>
         <div className="card w-96 bg-base-100 card-xs drop-shadow-lg mx-auto flex flex-col items-center mt-10 mb-10 p-8">
           <div className="avatar">

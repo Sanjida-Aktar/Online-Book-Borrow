@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BookDetails = async ({ params }) => {
     const { id } = await params;
-  const res = await fetch("http://localhost:3000/books.json", {
+  const res = await fetch("https://online-book-borowing.vercel.app/books.json", {
     cache: "no-store",
   });
 
