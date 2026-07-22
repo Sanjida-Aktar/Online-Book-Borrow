@@ -7,7 +7,7 @@ import FooterPage from '@/components/shared/Footer';
 const page = () => {
   return (
     <div>
-      <Navbar></Navbar>
+     
       
       <HeroBanner></HeroBanner>
       <BooksPage></BooksPage>

@@ -1,4 +1,4 @@
-import Navbar from "@/components/shared/Navbar";
+
 import Link from "next/link";
 
 const BookDetails = async ({ params }) => {
@@ -14,7 +14,7 @@ const BookDetails = async ({ params }) => {
   if (!book) {
     return (
       <>
-        <Navbar />
+        
         <div className="flex justify-center items-center h-[70vh]">
           <h1 className="text-3xl font-bold text-red-500">
             Book Not Found!
@@ -26,7 +26,7 @@ const BookDetails = async ({ params }) => {
 
   return (
     <>
-      <Navbar />
+     
 
       <section className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
